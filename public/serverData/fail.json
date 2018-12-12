@@ -1,0 +1,6 @@
+{
+  "status": "error",
+  "data": {
+    "message": "wrong_email_or_password"
+  }
+}

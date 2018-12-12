@@ -1,0 +1,31 @@
+
+h2, h3 {
+  text-align: center;
+}
+
+.error {
+  text-align: center;
+  font:15px Arial;
+  color:red;
+}
+
+.title {
+  text-align: center;
+}
+
+.author {
+  text-align: center;
+  font: italic 13px Arial;
+}
+
+.description {
+  text-indent: 20px;
+}
+
+
+
+
+
+
+
+
