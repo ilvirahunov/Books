@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d648d53-013b-41d3-bfed-cbd0ecd00202" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/cat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/serverData/books.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/serverData/fail.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/serverData/succeess.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/serverData/user1Data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AutorizeForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Favorites.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrivateRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrivateUserInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RouteError.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/autorize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/books.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/userInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/autorize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/books.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/userInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/autorizeForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/favorite.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/privateUserInfo.css" afterDir="false" />
-    </list>
+    <list default="true" id="9d648d53-013b-41d3-bfed-cbd0ecd00202" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -194,9 +152,10 @@
     <session id="-594565559">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -335,6 +294,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -374,7 +334,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -610,16 +569,17 @@
       <workItem from="1544610963664" duration="326000" />
       <workItem from="1544612814014" duration="639000" />
       <workItem from="1544614156621" duration="153000" />
+      <workItem from="1544797021537" duration="613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243803000" />
+    <option name="totallyTimeSpent" value="244416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2313988" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2313988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -633,7 +593,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2536825" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2536825" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
