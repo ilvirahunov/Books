@@ -1,9 +1,15 @@
 import React, {Component, Fragment} from "react";
 import PropTypes from "prop-types";
+import searcher from './helpers/search';
 import './style/home.css';
 
 export default class Home extends Component {
-
+  constructor(props) {
+    super(props);
+    this.state = {
+      search: ''
+    }
+  }
   static propTypes = {
     isLoading: PropTypes.bool.isRequired,
     serverFail: PropTypes.bool.isRequired,
@@ -27,7 +33,14 @@ export default class Home extends Component {
 
   render() {
     const {isLoading, serverFail, books} = this.props;
-    const booksList = books.map( (book) =>
+    const {search} = this.state;
+    let shownBooks = [];
+    if(search){                                        //если в поиске что - то  набрали, то происходит поиск с помощью спец функции
+      shownBooks = [...searcher(books, search)]    // она принимает массив и выражение которое ищем и возврощает массив
+    } else {                                            // содержащий элементы содержащте искомое выражение
+      shownBooks = [...books];
+    }
+    const booksList = shownBooks.map( (book) =>
       <Fragment key = {book.id}>
         <h3 className = 'title'> {book.data.title} </h3>
         <p className = 'author'>{book.data.author}</p>
@@ -49,11 +62,26 @@ export default class Home extends Component {
                 Ошибка сервера
             </p>
           ) : (
-            booksList
+            <>
+              Поиск
+              <input
+                name = 'search'
+                type = 'text'
+                value = {this.state.search}
+                placeholder = 'Название книги или автора'
+                onChange = {this.handleChange}
+              />
+              {booksList}
+            </>
           )
         )}
       </>
-    );
+    )
+  }
+  handleChange = (ev) => {
+    this.setState({
+      search: ev.target.value
+    })
   }
 }
 

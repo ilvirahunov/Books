@@ -5,7 +5,7 @@ export const GET_BOOKS_FAIL = 'GET_BOOKS_FAIL';
 export const booksRequest = () => ({
   type: BOOKS_REQUEST,
 });
-export const booksSucceess = (payload) => ({
+export const booksSucceess = payload => ({
   type: BOOKS_SUCCEESS,
   payload: payload,
 });
